@@ -20,8 +20,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.6.8 # This is the action
         with:
-          c66045f5-ca05-4e55-8f02-9bac23c66ba7: ${{secrets.HEROKU_API_KEY}}
-          serene-bastion-21277: ${{secrets.APP_NAME}} #Must be unique in Heroku
+          54832910-a9f9-46e3-8dc0-c3f23a1be8e1: ${{secrets.HEROKU_API_KEY}}
+          lit-badlands-14675: ${{secrets.APP_NAME}} #Must be unique in Heroku
           heroku_email: ${{secrets.EMAIL}}
           usedocker: true
           # docker_build_args: |
